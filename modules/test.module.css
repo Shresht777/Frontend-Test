@@ -1,4 +1,33 @@
 .container{
     height: 80vh;
     background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.container input,
+.container button {
+    max-width: 100%;
+}
+
+.input {
+    margin: 10px;
+}
+
+.h3 {
+    margin: 10px 10px 10px 7px;
+}
+
+.p {
+    margin: 10px 10px 10px 7px;
+}
+
+.button{
+    margin: 10px 10px 10px 7px;
+}
+
+@media (max-width: 768px) {
+    .container input,
+    .container button {
+        width: 100%;
+    }
 }
